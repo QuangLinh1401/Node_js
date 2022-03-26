@@ -1,0 +1,27 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "Học lập trình NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuangLinh1401/Node_js.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Quang Linh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuangLinh1401/Node_js/issues"
+  },
+  "homepage": "https://github.com/QuangLinh1401/Node_js#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "supervisor": "^0.12.0"
+  }
+}
