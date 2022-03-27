@@ -2,9 +2,9 @@
   "name": "index",
   "version": "1.0.0",
   "description": "Học lập trình NodeJS",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "supervisor --inspect index.js",
+    "start": "supervisor --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +22,10 @@
   "homepage": "https://github.com/QuangLinh1401/Node_js#readme",
   "dependencies": {
     "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
     "supervisor": "^0.12.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
   }
 }
